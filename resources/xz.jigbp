@@ -1,0 +1,112 @@
+{
+  "createdAt": "2026-10-16T15:35:52Z",
+  "defaultSpeed": 1,
+  "device": {
+    "additionalStrings": [],
+    "bcdDevice": 294,
+    "bcdUSB": 512,
+    "configurations": [
+      {
+        "attributes": 128,
+        "configurationValue": 1,
+        "interfaceAssociations": [],
+        "interfaces": [
+          {
+            "alternateSetting": 0,
+            "classDescriptors": [
+              {
+                "descriptorType": 36,
+                "payload": "CSQBAAEJAAEB"
+              }
+            ],
+            "endpoints": [],
+            "interfaceClass": 255,
+            "interfaceNumber": 0,
+            "interfaceProtocol": 0,
+            "interfaceString": "MIDI Control",
+            "interfaceSubClass": 1
+          },
+          {
+            "alternateSetting": 0,
+            "classDescriptors": [
+              {
+                "descriptorType": 36,
+                "payload": "ByQBAAElAA=="
+              },
+              {
+                "descriptorType": 36,
+                "payload": "BiQCAQEA"
+              },
+              {
+                "descriptorType": 36,
+                "payload": "BiQCAgIA"
+              },
+              {
+                "descriptorType": 36,
+                "payload": "CSQDAQMBAgEA"
+              },
+              {
+                "descriptorType": 36,
+                "payload": "CSQDAgQBAQEA"
+              }
+            ],
+            "endpoints": [
+              {
+                "classDescriptors": [
+                  {
+                    "descriptorType": 37,
+                    "payload": "BSUBAQE="
+                  }
+                ],
+                "direction": 0,
+                "endpointNumber": 1,
+                "interval": 0,
+                "maxPacketSize": 64,
+                "transferType": 2
+              },
+              {
+                "classDescriptors": [
+                  {
+                    "descriptorType": 37,
+                    "payload": "BSUBAQM="
+                  }
+                ],
+                "direction": 128,
+                "endpointNumber": 1,
+                "interval": 0,
+                "maxPacketSize": 64,
+                "transferType": 2
+              }
+            ],
+            "interfaceClass": 255,
+            "interfaceNumber": 1,
+            "interfaceProtocol": 0,
+            "interfaceString": "MIDI Streaming",
+            "interfaceSubClass": 3
+          }
+        ],
+        "maxPowerMA": 100
+      }
+    ],
+    "deviceClass": 0,
+    "deviceProtocol": 0,
+    "deviceSubClass": 0,
+    "hidCountryCode": 0,
+    "manufacturerString": "Pioneer DJ",
+    "maxPacketSize0": 64,
+    "productID": 44,
+    "productString": "Dubplate XZ USB bridge",
+    "serialNumberString": "DUBPLATE-XZ-0001",
+    "vendorID": 11123
+  },
+  "hidReportDescriptorsEncoded": {},
+  "id": "A51EAC77-1747-419A-9DD0-000000000002",
+  "modifiedAt": "2026-10-16T15:47:22Z",
+  "name": "Dubplate XZ",
+  "origin": "user",
+  "summary": "USB identity for Dubplate Devices. MIDI is provided separately.",
+  "tags": [
+    "dubplate"
+  ],
+  "version": 8
+}
